@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    text-align: center;
+    display: flex;
+}
+img{
+    width: 15%;
+    padding: 20px;
+    transition: 0.4s ease;
+}
+.login{
+    border-top: 1px solid rgb(190, 190, 190);
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btnfacebook{
+    background-color: rgb(59, 89, 152);
+    color: white;
+    border-radius: 25px;
+    padding: 1rem 5rem;
+    margin: 0rem 27rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnlogin:hover{
+    transform: scale(1.1);
+    
+}
+.btnapple{
+    background-color: black;
+    padding: 1rem 1px;
+    display: flex;
+    margin: 1.5rem 29.5rem;
+    border-radius: 25px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.btngoogle{
+    color: var(--text-subdued,#6a6a6a);
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 25px;
+    border: 2px solid #6a6a6a;
+    background-color:white;
+    padding: 1rem 5.5rem;
+}
+.btnnumero{
+    color: var(--text-subdued,#6a6a6a);
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 25px;
+    border: 2px solid #6a6a6a;
+    background-color:white;
+    padding: 1rem 0rem;
+    display: flex;
+    margin: 1.5rem 29.5rem;
+    justify-content: center;
+}
+.ou{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+}
+.loginadress{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 130px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.logininput{
+    padding: 10px 250px 20px 0px;
+    margin-left: 150px;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+.loginsenha{
+    margin-right: 220px;
+    margin-top: 20px;
+}
+.senhainput{
+    padding: 10px 250px 20px 0px;
+    margin-left: 150px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.esquecersenha{
+    margin-top: 10px;
+    margin-right: 120px;
+
+}
+.salvar{
+    display: flex;
+}
+.loginsalvar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.checkbox{
+    margin-left: 480px;
+    margin-top: 12px;
+}
+.buttonentrar{
+    background-color: var(--background-base,#1ed760);
+    margin-left: 200px;
+    border: 0;
+    border-radius: 20px;
+    padding: 14px 32px;
+}
+.abutton{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.criarconta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btninscrever{
+    background-color: white;
+    padding: 10px 130px;
+    border: 2px solid #6a6a6a;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.ainscrever{
+    color: #6a6a6a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.logincriarconta{
+    border-top: 1px solid #d3d3d3;
+    margin: 20px 0;
+}

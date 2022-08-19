@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    transition: 0.4s ease;
+}
+a{
+    text-decoration: none;
+}
+html,body{height: 100%}
+
+.sidebar{
+    padding-top: 5rem;
+    float: left;
+    width: 16.3rem;
+    padding: 1rem 0px;
+    height: 100%;
+    min-width: 10rem;
+    overflow-y: hidden;
+    position: fixed;
+    background-color: black;
+    overflow-x: hidden;
+}
+.sidebar-wraper {
+    padding-bottom: 15rem;
+}
+.sidebar_menu{
+    margin: 1rem 0;
+    color: rgb(190,190,190);
+}
+.sidebar_logo img{
+    max-width: 10rem;
+    width: 100%;
+    margin: 1rem 2rem 2rem;
+}
+.sidebar_menu a{
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    display: block;
+    padding: 1rem 0;
+}
+.sidebar_menu, svg{
+    margin: 0rem 1rem;
+}
+.svg {
+    margin: 0px 1rem;
+}
+.sidebar_menu_selecionado:hover{
+    color: rgb(190, 190, 190);
+    background-color: rgb(80, 80, 80);
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+.sidebar_menu_item{
+    margin-top: 1rem;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.sidebar_menu_item_componente {
+    width: 1.9rem;
+    height: 1.9rem;
+    text-align: center;
+    line-height: 2rem;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+.sidebar_menu_item, span{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 1rem;
+}
+.sidebar_menu_item img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.sidebar-bottom{
+    margin: 20rem 2rem;
+    padding: 6rem 0;
+    display: flex;
+    
+}
+img:hover{
+    transform: scale(1.1);
+}
+.sidebar-bottom, .abottom{
+    text-decoration: none;
+    color: rgb(190,190,190);
+    font-size: 9px;
+    margin: 0.5rem 1rem;
+    display: block;
+}
+.abottom:hover{
+    transform: scale(1);
+    color: white;
+}
+
+
+/* Boteoes */
+
+
+.btns {
+    background-color: rgb(19, 19, 19);
+    padding: 1rem 0;
+    margin-left: 16rem;
+}
+.btnleft{
+    border: 0;
+    color: black;
+    background-color: black;
+    padding: 2px 3px 2px 2px;
+    border-radius: 20px;
+}
+.imgbtn{
+    width: 30%;
+}
+.btnright{
+    border: 0;
+    color: black;
+    background-color: black;
+    padding: 2px 3px 2px 2px;
+    border-radius: 20px;
+    rotate: 180deg;
+}
+.login{
+    display:inline-flex;
+    margin-left: 45rem;
+}
+.btnentrar {
+    border: 0;
+    background-color: white;
+    border-radius: 100px;
+    padding: 0.2rem 2rem;
+    font-size: 14px;
+}
+.btnentrar:hover{
+    transform: scale(1.1);
+}
+.abtn {
+    color: black;
+}
+.btnincrever{
+    color: rgb(190,190,190);
+    font-size: 14px;
+}
+.spanincrever{
+    padding: 0.5rem 2rem;
+}
+.spanincrever:hover{
+    transform: scale(0.9);
+}
+.btnvoltar {
+   display: flex;
+}
+
+/* Principal/Main spotify */
+
+.main{
+    margin-left: 19%;
+    background-color: rgb(30, 30, 30);
+    height: 130%;
+    float: left;
+    padding: 15px 20px;
+}
+.main_row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.main_wraper{
+    padding-bottom: 200px;
+}
+.main_row_title{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main_row_title, .text-playlists{
+    color: white;
+    margin-top: 0.6rem;
+    text-align: left;
+    font-size:  1.5rem;
+}
+h3{
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.text-playlists:hover{
+    text-decoration: underline;
+}
+
+.main-col {
+    cursor: pointer;
+    width: 18%;
+    margin-top: 20px;
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.main-col:hover{
+    transform: scale(0.9); 
+}
+.imgcol {
+    width: 100%;
+    border-radius: 4px;
+}
+p{
+    color: rgb(190, 190, 190);
+    text-align: left;
+    font-size: 14px;
+    padding-top: 8px;
+    gap: 24px;
+}
+
+/*footer*/
+footer{
+    display: block;
+
+}
+.btnfooter{
+    position: relative;
+    gap: 20px;
+    user-select: none;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    margin-top: 5.5rem;
+    align-items: center;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+}
+footer{
+    right: 0px;
+    padding: 1rem;
+}
+.btnbutton{
+    background-color: white;
+    color: black;
+    padding: 15px 2rem;
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btnbutton:hover{
+    transform: scale(1.1);
+
+}
+.footer-text-principal{
+    font-size: 16px;
+    padding: 15px;
+}
+.footer-a{
+    color: black
+}
+.footer-text-principal{
+    color: white;
+}
+.footer-text-principal:hover{
+    color: black;
+    transform: scale(0.1);
+}
+
+
+
+
